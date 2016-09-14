@@ -1,0 +1,7 @@
+#fancybox-lock .fancybox-inner{
+	overflow: visible!important;
+	max-width: 960px!important;
+}
+#fancybox-lock{
+	overflow: hidden!important;
+}

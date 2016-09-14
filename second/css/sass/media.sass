@@ -1,0 +1,118 @@
+@import "bourbon/bourbon"
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	.small_nav
+		display: block!important
+		position: relative
+		right: 0
+		left: 1200px
+		margin: auto
+		width: 100%
+	.small_login_search
+		background-color: #2d2d2d
+		height: 70px
+		top: 0px
+		.cbp-af-nav-shrink
+			padding: 18px 0 8.5px!important
+		.login_box
+			left: 50px
+			a
+				color: #88b848
+		.sb-search
+			right: 35px
+			input
+				background-color: #2d2d2d
+
+	.small_nav_menu
+		top: 0px
+		min-height: 455px
+		background-color: $white
+
+	ul.dropdown-menu
+		li
+			&:hover
+				width: 90%!important
+			div.left_menu, div.middle_menu, div.right_menu
+				li
+					&:hover
+						width: 100%!important
+				li.li_wrapper
+					&:hover
+						width: 100%!important
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	ul.dropdown-menu
+		li
+			&:hover
+				width: 85%!important
+
+	/*Disable Animation on Mobile Devices*/
+	.animated
+		/*CSS transitions*/
+		-o-transition-property: none !important
+		-moz-transition-property: none !important
+		-ms-transition-property: none !important
+		-webkit-transition-property: none !important
+		transition-property: none !important
+		/*CSS transforms*/
+		-o-transform: none !important
+		-moz-transform: none !important
+		-ms-transform: none !important
+		-webkit-transform: none !important
+		transform: none !important
+		/*CSS animations*/
+		-webkit-animation: none !important
+		-moz-animation: none !important
+		-o-animation: none !important
+		-ms-animation: none !important
+		animation: none !important
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	ul.dropdown-menu
+		li
+			&:hover
+				width: 80%!important
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+

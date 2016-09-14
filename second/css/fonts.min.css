@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Frutiger LT W01 55 Roman";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Frutinger/b0b6eb8ffec6fd135e633df33313c82d.eot?#iefix") format("embedded-opentype"), url("../fonts/Frutinger/b0b6eb8ffec6fd135e633df33313c82d.woff") format("woff"), url("../fonts/Frutinger/b0b6eb8ffec6fd135e633df33313c82d.ttf") format("truetype"); }
+@font-face {
+  font-family: "robotomedium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoMedium/roboto-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoMedium/roboto-medium-webfont.woff") format("woff"), url("../fonts/RobotoMedium/roboto-medium-webfont.ttf") format("truetype"); }
+@font-face {
+  font-family: "RobotoRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype"); }
+@font-face {
+  font-family: "robotolight_italic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoLight/roboto-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoLight/roboto-lightitalic-webfont.woff") format("woff"), url("../fonts/RobotoLight/roboto-lightitalic-webfont.ttf") format("truetype"); }
+@font-face {
+  font-family: "robotolight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoLight/roboto-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoLight/roboto-light-webfont.woff") format("woff"), url("../fonts/RobotoLight/roboto-light-webfont.ttf") format("truetype"); }
